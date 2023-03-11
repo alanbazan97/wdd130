@@ -47,6 +47,16 @@ body {
   background: url('images/hero.jpg') no-repeat center center/cover;
 }
 
+.hero h1 {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
+  padding: 10px;
+  background-color: var(--quinary-color);
+}
+
 .hero img {
     width: 1300px;
 }
@@ -56,9 +66,9 @@ article {
   top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 600px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  padding: 12px;
+  background-color: var(--quinary-color);
 }
 
 article img {
@@ -113,37 +123,4 @@ footer p {
 footer img {
   width: 30px;
   margin: 0 10px;
-}
-
-/* Responsive */
-@media only screen and (max-width: 768px) {
-  .hero {
-    height: 400px;
-  }
-
-  .article-container {
-    width: 80%;
-    max-width: none;
-    padding: 10px;
-  }
-
-  .section-history {
-    padding: 20px 0;
-  }
-
-  .section-history h2 {
-    font-size: 24px;
-  }
-
-  .section-adventure {
-    padding: 20px 0;
-  }
-
-  .section-adventure img {
-    width: 40%;
-  }
-
-  footer {
-    padding: 20px 0;
-  }
 }
