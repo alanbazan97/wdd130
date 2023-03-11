@@ -69,6 +69,7 @@ article {
   max-width: 800px;
   padding: 12px;
   background-color: var(--quinary-color);
+  opacity: 0.87
 }
 
 article img {
