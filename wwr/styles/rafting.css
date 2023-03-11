@@ -1,0 +1,149 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed&family=Genos&display=swap');
+
+/* Color Scheme */
+:root {
+  --primary-color: #2589bd;
+  --secondary-color: #bf1a2f;
+  --tertiary-color: #2b2d42;
+  --quaternary-color: #bfacc8;
+  --quinary-color: #f2efea;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tertiary-color);
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+}
+
+a.social-media-link {
+  text-decoration: none;
+}
+
+/* Layout */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url('images/hero.jpg') no-repeat center center/cover;
+}
+
+.hero img {
+    width: 1300px;
+}
+
+article {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+article img {
+  float: right;
+  margin: 10px 10px 10px 10px;
+  width: 250px;
+}
+
+.history {
+  background-color: var(--quinary-color);
+  padding: 50px 0;
+}
+
+.history h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.history p {
+  color: var(--tertiary-color);
+}
+
+.adventure {
+  padding: 50px 0;
+}
+
+.adventure h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.adventure img {
+  width: 20%;
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--tertiary-color);
+  padding: 50px 0;
+  color: var(--quinary-color);
+}
+
+footer p {
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .hero {
+    height: 400px;
+  }
+
+  .article-container {
+    width: 80%;
+    max-width: none;
+    padding: 10px;
+  }
+
+  .section-history {
+    padding: 20px 0;
+  }
+
+  .section-history h2 {
+    font-size: 24px;
+  }
+
+  .section-adventure {
+    padding: 20px 0;
+  }
+
+  .section-adventure img {
+    width: 40%;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+}
