@@ -1,0 +1,87 @@
+/* Set body background color and font family */
+body {
+    background-color: #fff6e5;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    color: #ff8c42;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Style the form container */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  /* Style the form inputs */
+  input[type="text"],
+  textarea,
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #fff;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #ff8c42;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the submit button */
+  button[type="submit"]:hover {
+    background-color: #f5733f;
+  }
+  
+  /* Style the select dropdown arrow */
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/fatcow/32/arrow_down.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 2rem;
+  }
+  
+  /* Style the selected option */
+  option:checked {
+    background-color: #ff8c42;
+    color: #fff;
+  }
+  
+  /* Style the error message */
+  .error {
+    color: #f00;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
