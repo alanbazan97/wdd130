@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Contact</title>
-  <meta name="description" content="Here you can find ways to contact us">
+  <title>Contact Us</title>
+  <meta name="description" content="Here you can find our contact information">
   <meta name="author" content="Alan Ronaldo Bazan Monge">
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -22,7 +22,84 @@
   </header>
   
   <main>
+    <section class="company-info">
+      <h2>Company Information</h2>
+      <div class="address-info">
+        <h3>Address:</h3>
+        <p>123 Main St<br>Anytown, USA 12345</p>
+      </div>
+      <div class="phone-info">
+        <h3>Phone Number:</h3>
+        <p>(555) 555-5555</p>
+      </div>
+      <div class="email-info">
+        <h3>Email:</h3>
+        <p>info@raftingsite.com</p>
+      </div>
+      <div class="map-info">
+        <h3>Map:</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.880463202172!2d-74.00610678459372!3d40.71277604465264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591baf18446d%3A0x31187f19a98ea971!2s123%20Main%20St%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sin!4v1651454514175!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
     
+    <section>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, please fill out the form below:</p>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="purpose">Purpose of Message:</label>
+          <div id="purpose">
+            <input type="radio" id="inquiry" name="purpose" value="Inquiry" required>
+            <label for="inquiry">General Inquiry</label>
+            <input type="radio" id="question" name="purpose" value="Question" required>
+            <label for="question">Reservation Question</label>
+            <input type="radio" id="suggestion" name="purpose" value="Suggestion" required>
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <label for="newsletter">Subscribe to our monthly newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter">
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee-container">
+        <figure>
+          <img src="images/employee1.jpg" alt="Employee 1">
+          <figcaption>
+            <h3>John Doe</h3>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Employee 2">
+          <figcaption>
+            <h3>Jane Smith</h3>
+            <p>Marketing Manager</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Employee 3">
+          <figcaption>
+            <h3>Mike Johnson</h3>
+            <p>Head Guide</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>           
   </main>
   
   <footer>
